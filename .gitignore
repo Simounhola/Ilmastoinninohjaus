@@ -1,0 +1,13 @@
+*.hex
+*.elf
+*.bin
+*.pyc
+*.log
+*.tmp
+__pycache__/
+build/
+*.cpp.o
+*.ino.cpp
+*.d
+settings.h
+versio1/settings.h
