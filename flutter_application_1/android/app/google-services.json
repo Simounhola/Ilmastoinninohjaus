@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "886745874317",
+    "firebase_url": "https://ilmastoinninohjaus-default-rtdb.firebaseio.com",
+    "project_id": "ilmastoinninohjaus",
+    "storage_bucket": "ilmastoinninohjaus.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886745874317:android:13728d5176fa75b26f07c4",
+        "android_client_info": {
+          "package_name": "com.unhol.ilmastoinninohjaus"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgZaaM1BoMk9ASiWHMzGzMyhdF9UpMK88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

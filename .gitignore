@@ -1,13 +1,82 @@
-*.hex
-*.elf
-*.bin
-*.pyc
+### Flutter / Dart ###
+# Build output
+build/
+.dart_tool/
+
+# Pub packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Generated API docs
+**/doc/api/
+
+# iOS last build id
+**/ios/Flutter/.last_build_id
+
+# Flutter metadata
+.metadata
+
+### VS Code ###
+.vscode/
+
+### JetBrains (Android Studio, IntelliJ) ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Android ###
+# Gradle build artifacts
+android/.gradle/
+android/local.properties
+
+# Android Studio build outputs
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+### iOS ###
+# CocoaPods
+**/Podfile.lock
+**/Pods/
+
+### Misc OS/editor ###
+.DS_Store
+Thumbs.db
 *.log
 *.tmp
+*.swp
+
+### Python (jos tarvitset skriptejä) ###
+*.pyc
 __pycache__/
-build/
-*.cpp.o
-*.ino.cpp
-*.d
+
+### Mobile symbolication / obfuscation ###
+app.*.symbols
+app.*.map.json
+
+### Environment / secrets ###
+.env
 settings.h
-versio1/settings.h
+
+### Arduino (IDE & PlatformIO compiled output) ###
+# Object files, map, hex, elf, bin, eeprom
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+
+# Arduino CLI / Pro IDE build folders
+build/
+**/build-*/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
